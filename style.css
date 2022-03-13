@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background: deepskyblue;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(47, 15, 231);
+}
